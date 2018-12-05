@@ -102,10 +102,10 @@ WSGI_APPLICATION = 'nfc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'nfc_db',
-        'USER': 'nfc_user',
-        'PASSWORD': '785cd684-f1f9-4c2d-938f-efb7defdabeb',
-        'HOST': '127.0.0.1',
+        'NAME': 'd1e2mibu9r6p1e',
+        'USER': 'qksveugceioazb',
+        'PASSWORD': '0c46f73a4f27641a3614fa8579aacc26245cc217259db059e6dff5076ac2f4d7',
+        'HOST': 'ec2-23-21-201-12.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
