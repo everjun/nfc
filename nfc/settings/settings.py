@@ -157,7 +157,7 @@ USE_TZ = True
 AUTH_USER_MODEL = 'authentication.User'
 
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
+DEBUG = True
 django_heroku.settings(locals())
 try:
     from local_settings import *
